@@ -4,3 +4,13 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+@layer components {
+    .icons {
+        @apply bg-white text-black py-1 px-2 rounded-md;
+    }
+
+    .navHover {
+        @apply hover:text-green-600 transition duration-200 ease-in-out;
+    }
+}
