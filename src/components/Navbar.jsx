@@ -1,6 +1,6 @@
-import { FaShoppingCart } from "react-icons/fa"
-import { FiSearch } from "react-icons/fi"
-import { IoIosContact } from "react-icons/io"
+import { FaShoppingCart } from "react-icons/fa";
+import { FiSearch } from "react-icons/fi";
+import { IoIosContact } from "react-icons/io";
 
 const Navbar = () => {
     return (
@@ -12,12 +12,24 @@ const Navbar = () => {
 
             {/*Navigation links*/}
             <nav className="hidden md:flex flex-row gap-6">
-                <a href="/" className="navHover">Home</a>
-                <a href="/" className="navHover">Menu</a>
-                <a href="/" className="navHover">About Us</a>
-                <a href="/" className="navHover">Subscription</a>
-                <a href="/" className="navHover">Recipes</a>
-                <a href="/" className="navHover">Contact</a>
+                <a href="/" className="navHover">
+                    Home
+                </a>
+                <a href="/" className="navHover">
+                    Menu
+                </a>
+                <a href="/" className="navHover">
+                    About Us
+                </a>
+                <a href="/" className="navHover">
+                    Subscription
+                </a>
+                <a href="/" className="navHover">
+                    Recipes
+                </a>
+                <a href="/" className="navHover">
+                    Contact
+                </a>
 
                 {/*Icons*/}
                 <div className="hidden lg:flex gap-2 ml-8">
@@ -38,7 +50,7 @@ const Navbar = () => {
                 Shop Now
             </button>
         </header>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;
