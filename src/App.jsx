@@ -17,6 +17,7 @@ function App() {
       <Products />
       <About />
       <HowItWorks />
+      <Testimonial />
     </>
   )
 }
