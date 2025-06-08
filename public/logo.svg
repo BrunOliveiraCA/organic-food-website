@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Círculo base -->
+  <circle cx="100" cy="100" r="95" fill="#F0FFF4" stroke="#34A853" stroke-width="4"/>
+
+  <!-- Sol estilizado -->
+  <circle cx="150" cy="50" r="15" fill="#FFCE31"/>
+
+  <!-- Campo moderno com linhas geométricas -->
+  <path d="M40 150 Q100 120 160 150" stroke="#34A853" stroke-width="3" stroke-linecap="round"/>
+  <path d="M40 160 Q100 130 160 160" stroke="#2E7D32" stroke-width="3" stroke-linecap="round"/>
+  <path d="M40 170 Q100 140 160 170" stroke="#1B5E20" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Folha estilizada -->
+  <path d="M95 110 Q100 75 115 105 Q100 125 95 110 Z" fill="#66BB6A" stroke="#2E7D32" stroke-width="2"/>
+
+  <!-- Caule da folha -->
+  <line x1="100" y1="110" x2="100" y2="130" stroke="#2E7D32" stroke-width="2" stroke-linecap="round"/>
+</svg>
